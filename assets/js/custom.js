@@ -1,9 +1,5 @@
 /*global $ , alert, console*/
 
-$(document).ready(function () {
-    $('body').bootstrapMaterialDesign();
-});
-
 //Check the scroll position
 $(window).scroll(function () {
     if ($(this).scrollTop() > 100) {
